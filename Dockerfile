@@ -1,5 +1,6 @@
 #Build slack-notifer on go-lang
 FROM golang:1.13.3-buster as builder
+MAINTAINER  Shahar Rajuan <shacharaj@gmail.com>
 ENV GO111MODULE=on
 ENV CGO_ENABLED=0
 WORKDIR /usr/src/
